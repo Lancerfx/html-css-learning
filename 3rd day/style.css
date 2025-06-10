@@ -1,0 +1,78 @@
+/* Reset and background */
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(209, 247, 234); */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(209, 247, 234);
+}
+
+/* Header */
+header h1 {
+  background-color: rgb(191, 122, 205);
+  color: white;
+  /* margin: 30px auto; */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Card box */
+.card {
+  background-color: white;
+  width: 320px;
+  margin: 50px auto; /* centers horizontally */
+  padding: 25px 20px;
+  border-radius: 15px;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+  margin-top: 150px;
+}
+
+/* Circular image */
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+  margin-bottom: 20px;
+}
+
+/* Title inside card */
+.card h2 {
+  color: rgb(100, 30, 120);
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.card p {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Button styling */
+button {
+  background-color: rgb(236, 193, 244);
+  padding: 12px 25px;
+  border-radius: 8px;
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(243, 106, 106);
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(207, 127, 224);
+  color: white;
+  /* margin: 40px auto; */
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 500px;
+  /* width: 60%; */
+}
