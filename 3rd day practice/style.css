@@ -1,0 +1,77 @@
+*{
+  margin: auto;
+  padding: auto;
+}
+
+body{
+  background-color: rgb(245, 165, 206);
+
+}
+
+h1{
+  background-color: rgb(207, 162, 249);
+  border-radius: 10px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+.card{
+  text-align: center;
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 100px 1px 100px 1px;
+  margin-left: 900px;
+  margin-right: 900px;
+  /* margin-top: 100px; */
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+  /* margin: 5px; */
+  /* padding: 5px; */
+  margin-bottom: 30px;
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h2{
+  color: brown;
+  line-height: 1.5;
+
+}
+.p1{
+  color: blueviolet;
+  line-height: 1.5;
+}
+
+p2{
+  color: black;
+  font-weight: black;
+  line-height: 1.7;
+  padding-bottom: 5px;
+}
+
+.card button a{
+  color: black;
+  text-decoration: none;
+}
+.card button{
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 10px 10px;
+  background-color: rgb(245, 161, 161);
+  font-weight: bold;
+}
+
+
+footer{
+    background-color: rgb(207, 162, 249);
+    margin-top: 360px;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
