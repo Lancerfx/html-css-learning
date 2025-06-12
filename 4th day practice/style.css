@@ -1,0 +1,95 @@
+*{
+  margin: auto;
+  padding: auto;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+section{
+  background-color: rgb(30, 26, 35);
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 800px;
+  margin-top: 50px;
+  border-radius: 1px 50px 1px 50px;
+}
+
+section .card img{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  border: 5px solid aqua;
+}
+
+section .card h2{
+  font-size: 40px;
+  font-family: sans-serif;
+  padding-top: 60px;
+}
+
+section .card h3{
+  font-size: 30px;
+  text-align: center;
+  font-family:sans-serif;
+  padding-top: 5px;
+}
+
+section .card h4{
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 12px;
+}
+
+section .card .bt1{
+  background-color: aqua;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid white;
+  margin-top: 25px;
+  margin-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+section .card .bt2{
+  background-color: transparent;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: aqua;
+  border: 2px solid aqua;
+  margin-top: 25px;
+  margin-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+section .card .link{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+}
+
+section .card .h5{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+section .card p{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+
