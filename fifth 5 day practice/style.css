@@ -1,0 +1,22 @@
+*{
+
+  padding: auto;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: aqua;
+}
+
+.nav{
+  background-color: bisque;
+  display: flex;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.nav .Nsme .S{
+  background-color: blueviolet;
+}
